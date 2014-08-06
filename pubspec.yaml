@@ -1,0 +1,10 @@
+name: minimal_serialization_example
+dependencies:
+  minimal_serialization:
+    path: /Users/alanknight/minimal_serialization
+  unittest: any
+transformers:
+   - minimal_serialization :
+       $include: lib/test_models.dart
+   - $dart2js :
+       $include : foo.bar
