@@ -1,7 +1,7 @@
 name: minimal_serialization_example
 dependencies:
   minimal_serialization:
-    path: /Users/alanknight/minimal_serialization
+    git: https://github.com/alan-knight/minimal_serialization
   unittest: any
 transformers:
    - minimal_serialization :
