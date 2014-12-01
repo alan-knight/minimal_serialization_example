@@ -1,12 +1,12 @@
 name: minimal_serialization_example
-version: 0.1.0
+version: 0.1.1
 author: Dart Team <misc@dartlang.org>
 description: An example and tests for the minimal_serialization transformer.
 homepage: https://github.com/alan-knight/minimal_serialization_example
 dependencies:
-  minimal_serialization: any
+  serialization: '>=0.10.1 <0.11.0'
   unittest: '>=0.9.0 <0.12.0'
 transformers:
-   - minimal_serialization :
+   - serialization :
        $include: lib/test_models.dart
 
